@@ -1,5 +1,5 @@
 {
-  "name": "pst-api",
+  "name": "@bitcircuit/pst-api",
   "version": "1.0.0",
   "description": "Extract objects from MS Outlook/Exchange PST files",
   "main": "dist/index.js",
