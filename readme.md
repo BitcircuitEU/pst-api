@@ -1,6 +1,6 @@
 # Node.JS (& Typescript) PST API
 
-[![npm](https://img.shields.io/npm/v/pst-extractor.svg)](https://www.npmjs.com/package/pst-extractor) ![github-issues](https://img.shields.io/github/issues/epfromer/pst-extractor.svg) ![stars](https://img.shields.io/github/stars/epfromer/pst-extractor.svg) ![forks](https://img.shields.io/github/forks/epfromer/pst-extractor.svg) ![](https://david-dm.org/epfromer/pst-extractor/status.svg) ![](https://david-dm.org/epfromer/pst-extractor/dev-status.svg) [![codecov](https://codecov.io/gh/epfromer/pst-extractor/branch/master/graph/badge.svg)](https://codecov.io/gh/epfromer/pst-extractor)
+[![npm](https://img.shields.io/npm/v/@bitcircuit/pst-api.svg)](https://www.npmjs.com/package/@bitcircuit/pst-api) ![github-issues](https://img.shields.io/github/issues/bitcircuiteu/pst-api.svg) ![stars](https://img.shields.io/github/stars/bitcircuiteu/pst-api.svg) ![forks](https://img.shields.io/github/forks/bitcircuiteu/pst-api.svg) ![](https://david-dm.org/bitcircuiteu/pst-api/status.svg) ![](https://david-dm.org/bitcircuiteu/pst-api/dev-status.svg)
 
 Extract objects from MS Outlook/Exchange PST files
 
@@ -8,30 +8,14 @@ Extract objects from MS Outlook/Exchange PST files
 
 Extract objects from MS Outlook/Exchange PST files.
 
-This is based off code from https://github.com/rjohnsondev/java-libpst. Thanks to Richard Johnson and Orin Eman.
+This Code is a fork of https://github.com/epfromer/pst-extractor
 
 A spec from Microsoft on the PST file format is at https://msdn.microsoft.com/en-us/library/ff385210(v=office.12).aspx.
 
 ## Install
 
-```npm install --save pst-extractor```
+```npm install --save @bitcircuit/pst-api```
 
 or
 
-```yarn add pst-extractor```
-
-## Usage
-
-Start with the example app to walk the PST and print out the folder structure to the console. Also, most of the major objects have Jest test specs which show how the object attributes can be accessed.
-
-```bash
-cd example
-npm start
-```
-
-or
-
-```bash
-cd example
-yarn start
-```
+```yarn add @bitcircuit/pst-api```
